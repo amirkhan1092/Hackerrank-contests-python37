@@ -1,7 +1,7 @@
 def findMaxLen(string):
     n = len(string)
     stk = []
-    stk.append(-1)
+    stk.append(0)
 
     result = 0
 
