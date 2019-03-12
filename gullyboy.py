@@ -1,6 +1,7 @@
 st = input()
-st = st.split()
-st = ''.join(st)
+# st = st.split()
+# st = ''.join(st)
+st = st.replace(' ','')
 
 node = int(input())-1
 rp = int(input())
