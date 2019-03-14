@@ -1,8 +1,12 @@
+# math
+# random
+
 import random
 
-D = ['sharma', 'yadav', 'singh', 'kumar']
+a = ['yadav','singh','srivastav','shukla','gla']
 
-n = 'vishal '
-ch = random.choices(D,[20,2,3,10],k=10)
+b = random.choices(a, [20, 2, 1, 9, 1], k=13)
 
-print(ch)
+n = 'Shashank'
+
+print(b)
