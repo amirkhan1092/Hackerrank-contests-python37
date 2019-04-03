@@ -76,7 +76,7 @@ for kk in g:
         print(i,'in',kk)
         if i in kk:
             count += 1
-            break
+            break # need to check 1 for satisfy
 
 print(count)
 
