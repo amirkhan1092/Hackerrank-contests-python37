@@ -1,7 +1,7 @@
-while 1 :
-    print('XYZ Exception ')
+try:
+    s = int('324',2)
 
-
-
-print('Python ')
-print('Mid 3 last syllabus ')
+except ValueError:
+    raise ValueError('forcely created error ')
+except:
+    print('error handled ')
