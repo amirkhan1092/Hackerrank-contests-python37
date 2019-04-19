@@ -16,3 +16,18 @@ for i in str:
     h[i] = str.count(i)
 
 print(h)
+
+k = list(h.values())
+k.sort(reverse=True)
+
+bt = sorted(h)
+for i in k[:3]:
+    for p in bt:
+        if h[p] == i:
+            print(p,i)
+            bt.remove(p)
+            break
+
+
+
+
