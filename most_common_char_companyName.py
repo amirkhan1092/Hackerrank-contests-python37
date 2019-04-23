@@ -8,6 +8,7 @@
 # google would have it's logo with the letters g,o,e
 
 
+
 str = input('enter the company name ')
 
 h = {}
