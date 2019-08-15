@@ -24,4 +24,4 @@ def pairs_stack(string):
 
 
 
-print(pairs_stack('(([)])'))
+print(pairs_stack('((2[4]))'))
